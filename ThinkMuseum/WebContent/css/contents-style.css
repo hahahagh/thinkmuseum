@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+body 	{
+	margin: 0;
+	font-family: '맑은 고딕', 'sans-serif';
+	
+	}
+
+/* 사이트이름 */
+
+	.site h1 a {color: #000000;
+				text-decoration: none	
+	}
+	
+	.site h1 {margin: 0;
+			  font-size: 30px
+	}
+	
+/* 네비게이션 */
+
+	.menu ul {margin: 0;
+			  padding: 0;
+			  list-style: none;	
+	}
+	
+	.menu li a {display: block;
+				padding: 10px 15px;
+				color: #000000;
+				font-size: 14px;
+				text-decoration: none;
+	}
+	
+	.menu li a:hover {background-color: #eeeeee
+	}
+	
+	.menu ul:after {content: "";
+					display: block;
+					clear: both;
+	}
+	
+	.menu li {float: left;
+			  width: auto
+	}
+	
+	/* 저작권 */
+	.copyright p {
+		margin: 0;
+		color: #666666;
+		font-size: 14px;
+	}
+	/* 저작권을 바 형태로 디자인 */
+	.box5 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #dddddd;
+	}
+	
+	/* 박스 왼쪽 오른쪽 공백*/
+	.boxA, .box5 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	/* 사이트 최상단 위,아래 공백 박스아래 테두리 줄 삽입*/
+	.boxA {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		margin-bottom: 15px; 
+		border-bottom: solid 3px #dddddd;
+	}
+	
+	
+	
+	/*박스 배경색 디자인*/
+	/* .boxA {
+		background-color: #FF24A3;
+	} */
+	
+	.boxA:after {
+		content:"";
+		display: block;
+		clear: both;
+	}
+	
+	.box1	{
+		float: left; width: auto;
+		
+	}
+	
+	.box2	{
+		float: right; width: auto;
+	}
+	
+	.boxB:after {
+		content:"";
+		display: block;
+		clear: both;
+	}
+	
+	.box3	{
+		float: left; width: 50%;
+		
+	}
+	
+	.box4	{
+		float: left; width: 50%;
+	}
+	
+	.mainimg {
+		width: 100%;
+		height: auto;
+		padding-left: 20px;
+	}
+	
+	.maintext {
+		padding: 40px;
+	}
+	
+	
+	/* ######### 1190px 이상 ##########*/
+	@media (min-width: 1190){
+	/* 전체 너비를 고정*/
+		.box3, .box4 {
+			width: 1140px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+	}
+	
+	
+	

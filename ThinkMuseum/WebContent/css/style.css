@@ -1,0 +1,293 @@
+@CHARSET "UTF-8";
+
+/* ######### 1190px 이상 ########## */
+@media ( min-width : 1190) {
+	/* 전체 너비를 고정 */
+	.box3, .box4 {
+		width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+body {
+	margin: 0;
+	font-family: '맑은 고딕', 'sans-serif';
+}
+
+/* 사이트이름 */
+.site h1 a {
+	color: #000000;
+	text-decoration: none
+}
+
+.site h1 {
+	margin: 0;
+	font-size: 30px
+}
+
+/* 네비게이션 */
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px 15px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background-color: #212121;
+}
+
+.menu ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.menu li {
+	float: left;
+	width: auto;
+}
+
+/* 헤더 그림 */
+.topimg {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* 캐치카피 */
+.catch {
+	margin: 0;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 28px;
+}
+
+/*헤더 그림에 캐치 카피를 중첩 */
+.top {
+	position: relative;
+}
+
+.catch {
+	position: absolute;
+	bottom: 7%;
+	right: 3%
+}
+
+/*중간 글씨 */
+.mtext {
+	text-align: center;
+}
+
+/* 중간 그림 */
+.midimg {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* 아래 그림 */
+.bottomimg {
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+/* 저작권 */
+.copyright p {
+	margin: 0;
+	color: #666666;
+	font-size: 14px;
+}
+/* 저작권을 바 형태로 디자인 */
+.box5 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dddddd;
+}
+
+/* 박스 왼쪽 오른쪽 공백 */
+.boxA, .box5 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* 사이트 최상단 위,아래 공백 박스아래 테두리 줄 삽입 */
+.boxA {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: solid 3px #747474;
+}
+
+/* 중간 3가지 그림 위아래 */
+.box6 {
+	padding-top: 20px;
+}
+
+.box6-1, .box6-2, .box6-3 {
+	padding-bottom: 10px;
+}
+
+/*박스 배경색 디자인 */
+/* .boxA {
+		background-color: #FF24A3;
+	} */
+.boxA:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box1 {
+	float: left;
+	width: auto;
+}
+
+.box1-1 {
+	float: left;
+	width: auto;
+	margin-left: 20%;
+}
+
+.box2 {
+	float: right;
+	width: auto;
+}
+
+.box6:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box6-1 {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.box6-2 {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+}
+
+.box6-3 {
+	float: left;
+	width: 32%;
+}
+
+/*링크 텍스트 디자인 */
+.box3 a, .box4 a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.box3 a:hover, .box4 a:hover {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+/* 회원가입 페이지 */
+.joinText {
+	text-align: center;
+}
+
+.joinPage {
+	border-spacing: 20px;
+	font-size: 1.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jrButton {
+	margin: auto;
+	width: 350px;
+	height: 100px;
+	margin-top: 30px;
+}
+
+.joinButton {
+	background-color: black;
+	border-color: black;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+	height: 30px;
+}
+
+.resetButton {
+	text-align: center;
+	margin-bottom: 30px;
+	height: 30px;
+}
+
+.pInfo {
+	background-color: #eeeeee;
+	border-color: #eeeeee;
+	margin: auto;
+	font-size: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 495px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.ayear {
+	width: 495px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+
+.ayear label {
+	
+}
+
+/*로그인 페이지*/
+.login form table input{
+	
+}
+
+.loginText {
+	text-align: center;
+}
+
+
+footer {
+	clear: both;
+}
+
+.next_page {
+	clear: both;
+	margin-top: 100px;
+	margin-left: 50px;
+	align-content: center;
+}
+
+#table_search {
+	clear: both;
+	margin: 20px;
+	font-size: 2.0em;
+}
+
+.gallery_painting {
+	clear: both;
+}
+
+/* 갤러리페이지*/
+
+
